@@ -4,21 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db5efea-7131-4578-ba10-810041352ff1" name="Changes" comment="">
+    <list default="true" id="0db5efea-7131-4578-ba10-810041352ff1" name="Changes" comment="Few files">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/Main01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/MessageSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/SlackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/SmsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/TwitterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/SpringDiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/beans/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/beans/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/beans/MessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/beans/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/beans/SlackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/beans/SmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/beans/TwitterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/part2Annotation/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/part2Annotation/config/SpringDiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/part2Annotation/main/zad1/TestComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/part2Annotation/main/zad1/UseTestComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/part2Annotation/main/zad2/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/part2Annotation/main/zad3/Captain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/part2Annotation/main/zad3/Main03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/part2Annotation/main/zad3/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/part2Annotation/main/zad4/Main04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/part2Annotation/main/zad4/ScopePrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/part2Annotation/main/zad4/ScopeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/part2Annotation/main/zad5/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/part2Annotation/main/zad5/Main05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/part2Annotation/main/zad5/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/part2Annotation/main/zad5/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/Main01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/Main01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/MessageSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/NotificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/SlackService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/SmsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/TwitterService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +48,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -54,17 +79,73 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/pl/coderslab/beans" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pl.coderslab" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.coderslab.Main01" />
+  <component name="RunManager" selected="Application.Main05">
+    <configuration name="Main03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.part2Annotation.main.zad3.Main03" />
       <module name="spring1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.coderslab.*" />
+          <option name="PATTERN" value="pl.part2Annotation.main.zad3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.part2Annotation.main.zad4.Main04" />
+      <module name="spring1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.part2Annotation.main.zad4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.part2Annotation.main.zad5.Main05" />
+      <module name="spring1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.part2Annotation.main.zad5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.coderslab.app.SpringDiApplication" />
+      <module name="spring1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.coderslab.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pl.part2Annotation.config.SpringDiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.part2Annotation.config.SpringDiApplication" />
+      <module name="spring1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.part2Annotation.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,7 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main01" />
+        <item itemvalue="Application.Main05" />
+        <item itemvalue="Application.Main04" />
+        <item itemvalue="Application.Main03" />
+        <item itemvalue="Application.pl.part2Annotation.config.SpringDiApplication" />
+        <item itemvalue="Application.SpringDiApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -86,8 +171,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665820717652</updated>
-      <workItem from="1665820719936" duration="3370000" />
+      <workItem from="1665820719936" duration="18550000" />
     </task>
+    <task id="LOCAL-00001" summary="Few files">
+      <created>1665825128950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665825128950</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +196,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Few files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Few files" />
   </component>
 </project>
